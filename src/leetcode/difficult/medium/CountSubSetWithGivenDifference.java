@@ -38,8 +38,8 @@ public class CountSubSetWithGivenDifference {
     }
 
     public static void main(String args[]){
-        int arr[] = {1,1,2,3};
+        int arr[] = {1,1,1,3};
         int diff =1;
-        System.out.println(countSubSetWithDifference(arr,1));
+        System.out.println(countSubSetWithDifference(arr,diff));
     }
 }
